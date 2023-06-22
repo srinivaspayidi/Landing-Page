@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            background-image: url('gym_center.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        .btn {
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #999;
+        }
+
+        .btn:active {
+            background-color: #555;
+        }
+
+        .orange-heading {
+            color: orange;
+        }
+
+        .white-text {
+            color: white;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSCLE UP - The secret of getting ahead is getting started</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="timer.js"></script>
+    <link rel="stylesheet" href="utils.css">
+</head>
+
+<body class='overflow-x-hidden'>
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between">
+                <div class="logo font-bold flex items-center text-blue" style="font-size: 35px;">MUSCLE UP</div>
+
+                <ul class="navbar flex items-center">
+                    <li><button class="btn">Home</button></li>
+                    <li><button class="btn">About</button></li>
+                    <li><button class="btn">Services</button></li>
+                    <li><button class="btn">Contact Us</button></li>
+                    <li><button class="btn">Join Now</button></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main class="min-h-screen">
+            <section class="section1">
+                <div class="flex">
+                    <div class="topleft flex flex-col justify-center px-2">
+                        <div class="text-center">
+                            <img class="dumbellimg" src="logo.jpg" alt="">
+                        </div>
+                        <h1 class="my-1 text-center">The secret of getting ahead is getting started</h1>
+                        <p class="text-center">You’re going to have to let it hurt. Let it suck. The harder you work,
+                            the better you will look. Your appearance isn’t parallel to how heavy you lift, it’s
+                            parallel to how hard you work</p>
+                        <p class="deal text-center">Offer expires in <span id="demo"></span></p>
+                        <div class="buttons">
+                            <button class="btn">Join now</button>
+                            <button class="btn">Contact Us</button>
+                        </div>
+                    </div>
+                    <div class="topright flex justify-center">
+                        <img class="gymimg" src="gym.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section2">
+                <h1 class="text-center my-2">Pricing</h1>
+                <p class="my-2"></p>
+                <div class="boxes flex justify-center">
+                    <div class="box">
+                        <h2>Charges</h2>
+                        <ul>
+                            <li class="highlighted">₹150/month</li>
+                            <li>0 users included</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            <li><button class="btn">Signup Now</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section3">
+                <h1 class="text-center my-2 orange-heading">Timings</h1>
+                <p class="text-center white-text">Morning: 5:00 AM to 10:00 AM</p>
+                <p class="text-center white-text">Evening: 5:00 PM to 10:00 PM</p>
+            </section>
+            <hr>
+            <hr>
+        </main>
+    </div>
+</body>
+
+</html>
